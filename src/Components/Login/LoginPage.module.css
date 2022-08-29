@@ -1,0 +1,218 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .stylePage{
+        display: block;
+        padding: 2% 5% 5% 5%;
+    } 
+    
+    .imgContainer{
+        width: 100%;
+        margin: 10;
+    }
+
+    .image{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .right{
+        margin-top: 1%;
+        margin-right: 20%;
+        min-width: 50vh;
+    }
+
+    .paperStyle{
+        display: flex;
+        width: 50vh;
+        height: 75vh;
+        margin: 2% 7% 7%;
+        opacity: 0.80;
+        position: absolute;
+    }   
+
+    .textSyle{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 80%;
+        position: absolute;
+    }
+
+    .Button{
+        width: 60%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .stylePage{
+        display: block;
+        padding: 2% 5% 5% 5%;
+    }  
+    
+    .imgContainer{
+        width: 100%;
+        margin: 10;
+    }
+
+    .image{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .right{
+        margin-top: 1%;
+        margin-right: 20%;
+        min-width: 50vh;
+    }
+
+    .paperStyle{
+        display: flex;
+        width: 80vh;
+        height: 75vh;
+        margin: 2% 7% 7%;
+        opacity: 0.80;
+        position: absolute;
+    }   
+
+    .textSyle{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 80%;
+        position: absolute;
+    }
+
+    .Button{
+        width: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .stylePage{
+        display: flex;
+        padding: 2% 5% 5% 5%;
+    }  
+    
+    .imgContainer{
+        width: 100%;
+        margin: 10;
+    }
+
+    .image{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .right{
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        min-width: 50vh;
+    }
+
+    .paperStyle{
+        display: flex;
+        width: 100vh;
+        height: 75vh;
+        margin: 5% 8% 8%;
+        opacity: 0.80;
+        position: absolute;
+    }   
+
+    .textSyle{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 80%;
+        position: absolute;
+    }
+
+    .Button{
+        width: 60%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .stylePage{
+        display: flex;
+        padding: 2% 5% 5% 5%;
+    }   
+
+    .imgContainer{
+        width: 50%;
+        margin: 10;
+    }
+
+    .image{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .right{
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        min-width: 50vh;
+    }
+
+    .paperStyle{
+        display: flex;
+        width: 130vh;
+        height: 80vh;
+        margin: 2% 8% 8%;
+        opacity: 0.80;
+        position: absolute;
+    }   
+
+    .textSyle{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 80%;
+        position: absolute;
+    }
+
+    .Button{
+        width: 60%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .stylePage{
+        display: flex;
+        padding: 2% 5% 5% 5%;
+    }
+    
+    .imgContainer{
+        width: 50%;
+        margin: 10;
+    }
+
+    .image{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .right{
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    .paperStyle{
+        display: flex;
+        width: 160vh;
+        height: 80vh;
+        margin: 2% 8% 8%;
+        opacity: 0.80;
+        position: absolute;
+    }   
+
+    .textSyle{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 80%;
+        position: absolute;
+    }
+
+    .Button{
+        width: 50%;
+    }
+}

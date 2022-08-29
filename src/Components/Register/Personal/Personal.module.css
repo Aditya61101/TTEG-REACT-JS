@@ -1,0 +1,69 @@
+@media only screen and (max-width: 600px) {
+  .style {
+    display: block;
+  }
+  .InputStyle {
+    display: block;
+    text-align: "center";
+    width: 100%;
+  }
+  .InputBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .style {
+    outline-style: solid;
+  }
+  .InputStyle {
+    display: block;
+    text-align: "center";
+    width: 100%;
+  }
+  .InputBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .style {
+    outline-style: solid;
+  }
+  .InputStyle {
+    display: block;
+    text-align: "center";
+    width: 100%;
+  }
+  .InputBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .style {
+    outline-style: solid;
+  }
+  .InputStyle {
+    display: flex;
+    text-align: "center";
+    width: 100%;
+  }
+  .InputBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .style {
+    outline-style: solid;
+  }
+  .InputStyle {
+    display: flex;
+    text-align: "center";
+    width: 100%;
+  }
+  .InputBox {
+    width: 50%;
+  }
+}
